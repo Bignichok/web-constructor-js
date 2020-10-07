@@ -1,4 +1,4 @@
-import image from "../assets/image.jpg";
+import image from "../assets/image.svg";
 import { TitleBlock, ImageBlock, ColumnsBlock, TextBlock } from "../classes/bloks";
 
 export const model = [

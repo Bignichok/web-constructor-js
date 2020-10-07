@@ -477,8 +477,8 @@ var App = /*#__PURE__*/function () {
 }();
 
 exports.App = App;
-},{"./site":"classes/site.js","./sidebar":"classes/sidebar.js"}],"assets/image.jpg":[function(require,module,exports) {
-module.exports = "/image.70feebc7.jpg";
+},{"./site":"classes/site.js","./sidebar":"classes/sidebar.js"}],"assets/image.svg":[function(require,module,exports) {
+module.exports = "/image.dba05d14.svg";
 },{}],"js/model.js":[function(require,module,exports) {
 "use strict";
 
@@ -487,7 +487,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.model = void 0;
 
-var _image = _interopRequireDefault(require("../assets/image.jpg"));
+var _image = _interopRequireDefault(require("../assets/image.svg"));
 
 var _bloks = require("../classes/bloks");
 
@@ -530,7 +530,7 @@ var model = [new _bloks.TitleBlock("Site constructor on JavaScript!", {
   }
 })];
 exports.model = model;
-},{"../assets/image.jpg":"assets/image.jpg","../classes/bloks":"classes/bloks.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"../assets/image.svg":"assets/image.svg","../classes/bloks":"classes/bloks.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -640,7 +640,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60828" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61166" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
